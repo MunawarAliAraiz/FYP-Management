@@ -15,100 +15,169 @@ namespace WindowsFormsApp1
         public Form1()
         {
             InitializeComponent();
+            customizeDesign();
         }
 
-        private void button1_MouseEnter(object sender, EventArgs e)
+        private void Form1_Load(object sender, EventArgs e)
         {
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.BackColor = System.Drawing.Color.Indigo;
+
+        }
+        private void guna2GradientPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
 
-        private void button1_MouseLeave(object sender, EventArgs e)
+        private void customizeDesign()
         {
-            this.button1.ForeColor = System.Drawing.Color.Indigo;
-            this.button1.BackColor = System.Drawing.Color.White;
+            stdSubmenu.Visible = false;
+            advSubmenu.Visible = false;
+            proSubmenu.Visible = false;
+            grpSubmenu.Visible = false;
+            assignProjectSubmenu.Visible = false;
+            assignAdvisorSubmenu.Visible = false;
+            manEvaSubmenu.Visible = false;
         }
 
-        private void button2_MouseEnter(object sender, EventArgs e)
+        private void hideSubMenu()
         {
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.BackColor = System.Drawing.Color.Indigo;
+            if(stdSubmenu.Visible == true)
+            {
+                stdSubmenu.Visible = false;
+            }
+            if (advSubmenu.Visible == true)
+            {
+                advSubmenu.Visible = false;
+            }
+            if (proSubmenu.Visible == true)
+            {
+                proSubmenu.Visible = false;
+            }
+            if (grpSubmenu.Visible == true)
+            {
+                grpSubmenu.Visible = false;
+            }
+            if (assignProjectSubmenu.Visible == true)
+            {
+                assignProjectSubmenu.Visible = false;
+            }
+            if (assignAdvisorSubmenu.Visible == true)
+            {
+                assignAdvisorSubmenu.Visible = false;
+            }
+            if (manEvaSubmenu.Visible == true)
+            {
+                manEvaSubmenu.Visible = false;
+            }
         }
 
-        private void button2_MouseLeave(object sender, EventArgs e)
+        private void showSubMenu(Panel subMenu)
         {
-            this.button2.ForeColor = System.Drawing.Color.Indigo;
-            this.button2.BackColor = System.Drawing.Color.White;
+            if(subMenu.Visible == false)
+            {
+                hideSubMenu();
+                subMenu.Visible = true;
+            }
+            else
+            {
+                subMenu.Visible = false;
+            }
         }
 
-        private void button3_MouseEnter(object sender, EventArgs e)
+        private void manageStudentBtn_Click(object sender, EventArgs e)
         {
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.BackColor = System.Drawing.Color.Indigo;
+            showSubMenu(stdSubmenu);
         }
 
-        private void button3_MouseLeave(object sender, EventArgs e)
+        private void manageAdvisorBtn_Click(object sender, EventArgs e)
         {
-            this.button3.ForeColor = System.Drawing.Color.Indigo;
-            this.button3.BackColor = System.Drawing.Color.White;
+            showSubMenu(advSubmenu);
         }
 
-        private void button4_MouseEnter(object sender, EventArgs e)
+        private void manageProjectsBtn_Click(object sender, EventArgs e)
         {
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.BackColor = System.Drawing.Color.Indigo;
-        }
-        private void button4_MouseLeave(object sender, EventArgs e)
-        {
-            this.button4.ForeColor = System.Drawing.Color.Indigo;
-            this.button4.BackColor = System.Drawing.Color.White;
+            showSubMenu(proSubmenu);
         }
 
-        private void button5_MouseEnter(object sender, EventArgs e)
+        private void createGroupBtn_Click(object sender, EventArgs e)
         {
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.BackColor = System.Drawing.Color.Indigo;
+            showSubMenu(grpSubmenu);
         }
 
-        private void button5_MouseLeave(object sender, EventArgs e)
+        private void assignProjectBtn_Click(object sender, EventArgs e)
         {
-            this.button5.ForeColor = System.Drawing.Color.Indigo;
-            this.button5.BackColor = System.Drawing.Color.White;
-        }
-        private void button6_MouseEnter(object sender, EventArgs e)
-        {
-            this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.BackColor = System.Drawing.Color.Indigo;
+            showSubMenu(assignProjectSubmenu);
         }
 
-        private void button6_MouseLeave(object sender, EventArgs e)
+        private void assignAdvisorBtn_Click(object sender, EventArgs e)
         {
-            this.button6.ForeColor = System.Drawing.Color.Indigo;
-            this.button6.BackColor = System.Drawing.Color.White;
+            showSubMenu(assignAdvisorSubmenu);
         }
 
-        private void button8_MouseEnter(object sender, EventArgs e)
+        private void manageEvaluationBtn_Click(object sender, EventArgs e)
         {
-            this.button8.ForeColor = System.Drawing.Color.White;
-            this.button8.BackColor = System.Drawing.Color.Indigo;
+            showSubMenu(manEvaSubmenu);
         }
 
-        private void button8_MouseLeave(object sender, EventArgs e)
+        private void guna2Button24_Click(object sender, EventArgs e)
         {
-            this.button8.ForeColor = System.Drawing.Color.Indigo;
-            this.button8.BackColor = System.Drawing.Color.White;
+
         }
 
-        private void button9_MouseEnter(object sender, EventArgs e)
+        private void guna2Button1_Click_1(object sender, EventArgs e)
         {
-            this.button9.ForeColor = System.Drawing.Color.White;
-            this.button9.BackColor = System.Drawing.Color.Indigo;
+            this.Close();
         }
 
-        private void button9_MouseLeave(object sender, EventArgs e)
+        private void guna2Button2_Click_1(object sender, EventArgs e)
         {
-            this.button9.ForeColor = System.Drawing.Color.Indigo;
-            this.button9.BackColor = System.Drawing.Color.White;
+            if (this.WindowState == FormWindowState.Maximized)
+            {
+                this.WindowState = FormWindowState.Normal;
+            }
+            else
+            {
+                this.WindowState = FormWindowState.Maximized;
+            }
+        }
+
+        private void guna2Button3_Click_1(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private Form activeForm = null;
+        private void openInnerForm(Form childForm)
+        {
+            if (activeForm != null)
+                activeForm.Close();
+            activeForm = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            multiFormPanel.Controls.Add(childForm);
+            multiFormPanel.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
+        }
+
+        private void addStdSubmenu_Click(object sender, EventArgs e)
+        {
+            openInnerForm(new AddStudentForm());
+        }
+
+        private void updateStdSubmenu_Click(object sender, EventArgs e)
+        {
+            openInnerForm(new UpdateStudentForm());
+        }
+
+        private void deleteStdSubmenu_Click(object sender, EventArgs e)
+        {
+            openInnerForm(new DeleteStudentForm());
+        }
+
+        private void listStdSubmenu_Click(object sender, EventArgs e)
+        {
+            openInnerForm(new ListStudentForm());
         }
     }
 }

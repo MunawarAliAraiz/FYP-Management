@@ -8,3 +8,9 @@ C:\Users\Munawar Ali\Desktop\DB LAB\Mid Project\db2020-cs-118\WindowsFormsApp1\W
 C:\Users\Munawar Ali\Desktop\DB LAB\Mid Project\db2020-cs-118\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\FYP-Management.csproj.CoreCompileInputs.cache
 C:\Users\Munawar Ali\Desktop\DB LAB\Mid Project\db2020-cs-118\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\Munawar Ali\Desktop\DB LAB\Mid Project\db2020-cs-118\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Munawar Ali\Desktop\DB LAB\Mid Project\db2020-cs-118\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Guna.UI2.dll
+C:\Users\Munawar Ali\Desktop\DB LAB\Mid Project\db2020-cs-118\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\FYP-Management.csproj.CopyComplete
+C:\Users\Munawar Ali\Desktop\DB LAB\Mid Project\db2020-cs-118\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.AddStudentForm.resources
+C:\Users\Munawar Ali\Desktop\DB LAB\Mid Project\db2020-cs-118\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.DeleteStudentForm.resources
+C:\Users\Munawar Ali\Desktop\DB LAB\Mid Project\db2020-cs-118\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ListStudentForm.resources
+C:\Users\Munawar Ali\Desktop\DB LAB\Mid Project\db2020-cs-118\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.UpdateStudentForm.resources
