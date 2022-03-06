@@ -305,7 +305,7 @@ namespace MidTermProject
             // 
             // guna2ComboBox5
             // 
-            this.guna2ComboBox5.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.guna2ComboBox5.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.guna2ComboBox5.BackColor = System.Drawing.Color.Transparent;
             this.guna2ComboBox5.BorderRadius = 6;
             this.guna2ComboBox5.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
@@ -323,7 +323,7 @@ namespace MidTermProject
             // 
             // guna2ComboBox4
             // 
-            this.guna2ComboBox4.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.guna2ComboBox4.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.guna2ComboBox4.BackColor = System.Drawing.Color.Transparent;
             this.guna2ComboBox4.BorderRadius = 6;
             this.guna2ComboBox4.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
@@ -388,7 +388,7 @@ namespace MidTermProject
             // 
             // guna2TextBox3
             // 
-            this.guna2TextBox3.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.guna2TextBox3.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.guna2TextBox3.BorderRadius = 6;
             this.guna2TextBox3.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2TextBox3.DefaultText = "";
@@ -412,7 +412,7 @@ namespace MidTermProject
             // 
             // label12
             // 
-            this.label12.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label12.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.label12.AutoSize = true;
             this.label12.BackColor = System.Drawing.Color.Transparent;
             this.label12.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -523,7 +523,7 @@ namespace MidTermProject
             // 
             // guna2Button24
             // 
-            this.guna2Button24.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.guna2Button24.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.guna2Button24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.guna2Button24.BorderRadius = 6;
             this.guna2Button24.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -701,7 +701,7 @@ namespace MidTermProject
             // 
             // label3
             // 
-            this.label3.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -716,7 +716,7 @@ namespace MidTermProject
             // 
             // label2
             // 
-            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -842,7 +842,7 @@ namespace MidTermProject
             // 
             // label1
             // 
-            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Georgia", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));

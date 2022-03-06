@@ -25,3 +25,7 @@ C:\Users\Munawar Ali\Desktop\DB LAB\Mid Project\db2020-cs-118\MidTermProject\Mid
 C:\Users\Munawar Ali\Desktop\DB LAB\Mid Project\db2020-cs-118\MidTermProject\MidTermProject\obj\Debug\MidTermProject.csproj.CopyComplete
 C:\Users\Munawar Ali\Desktop\DB LAB\Mid Project\db2020-cs-118\MidTermProject\MidTermProject\obj\Debug\WindowsFormsApp1.exe
 C:\Users\Munawar Ali\Desktop\DB LAB\Mid Project\db2020-cs-118\MidTermProject\MidTermProject\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Munawar Ali\Desktop\DB LAB\Mid Project\db2020-cs-118\MidTermProject\MidTermProject\obj\Debug\MidTermProject.ReportForm.resources
+C:\Users\Munawar Ali\Desktop\DB LAB\Mid Project\db2020-cs-118\MidTermProject\MidTermProject\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Munawar Ali\Desktop\DB LAB\Mid Project\db2020-cs-118\MidTermProject\MidTermProject\bin\Debug\itextsharp.dll
+C:\Users\Munawar Ali\Desktop\DB LAB\Mid Project\db2020-cs-118\MidTermProject\MidTermProject\bin\Debug\itextsharp.xml

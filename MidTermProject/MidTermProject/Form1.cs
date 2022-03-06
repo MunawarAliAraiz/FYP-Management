@@ -222,5 +222,10 @@ namespace MidTermProject
         {
             openInnerForm(new MarkEvaluationForm());
         }
+
+        private void guna2Button5_Click(object sender, EventArgs e)
+        {
+            openInnerForm(new ReportForm());
+        }
     }
 }
